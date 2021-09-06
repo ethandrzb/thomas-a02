@@ -15,6 +15,7 @@ public class Solution06
         Scanner sc = new Scanner(System.in);
         int currentAge;
         int retireAge;
+        int currentYear;
 
         System.out.print("What is your current age? ");
 
@@ -26,7 +27,7 @@ public class Solution06
 
         System.out.printf("You have %d years left until you can retire.%n", (retireAge - currentAge));
 
-        int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+        currentYear = Calendar.getInstance().get(Calendar.YEAR);
 
         System.out.printf("It's %d, so you can retire in %d.%n", currentYear, currentYear + (retireAge - currentAge));
 
