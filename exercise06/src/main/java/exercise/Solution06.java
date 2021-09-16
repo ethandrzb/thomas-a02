@@ -10,12 +10,10 @@ import java.util.Calendar;
 
 public class Solution06
 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int currentAge;
         int retireAge;
-        int currentYear;
 
         System.out.print("What is your current age? ");
 
@@ -25,12 +23,18 @@ public class Solution06
 
         retireAge = sc.nextInt();
 
-        System.out.printf("You have %d years left until you can retire.%n", (retireAge - currentAge));
-
-        currentYear = Calendar.getInstance().get(Calendar.YEAR);
-
-        System.out.printf("It's %d, so you can retire in %d.%n", currentYear, currentYear + (retireAge - currentAge));
+        printRetirement(currentAge, retireAge);
 
         System.exit(0);
+    }
+    public static void printRetirement(int currentAge, int retireAge)
+    {
+        System.out.printf("You have %d years left until you can retire.%n", (retireAge - currentAge));
+
+        System.out.printf("It's %d, so you can retire in %d.%n", getCurrentYear(), getCurrentYear() + (retireAge - currentAge));
+    }
+    public static int getCurrentYear()
+    {
+        return Calendar.getInstance().get(Calendar.YEAR);
     }
 }
