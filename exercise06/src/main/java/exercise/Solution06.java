@@ -6,7 +6,6 @@
 package exercise;
 
 import java.util.Scanner;
-import java.util.Calendar;
 
 public class Solution06
 {
@@ -23,18 +22,9 @@ public class Solution06
 
         retireAge = sc.nextInt();
 
-        printRetirement(currentAge, retireAge);
+        Retirement r = new Retirement(currentAge, retireAge);
+        r.printRetirement();
 
         System.exit(0);
-    }
-    public static void printRetirement(int currentAge, int retireAge)
-    {
-        System.out.printf("You have %d years left until you can retire.%n", (retireAge - currentAge));
-
-        System.out.printf("It's %d, so you can retire in %d.%n", getCurrentYear(), getCurrentYear() + (retireAge - currentAge));
-    }
-    public static int getCurrentYear()
-    {
-        return Calendar.getInstance().get(Calendar.YEAR);
     }
 }
