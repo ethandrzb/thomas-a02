@@ -10,8 +10,10 @@ import java.util.Scanner;
 
 public class Solution06
 {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    private static final Scanner sc = new Scanner(System.in);
+
+    public static void main(String[] args)
+    {
         int currentAge;
         int retireAge;
 
