@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cadba085-9e4e-4eab-a6c5-631761d000de" name="Changes" comment="Finished Solution10">
+    <list default="true" id="cadba085-9e4e-4eab-a6c5-631761d000de" name="Changes" comment="Added pseudocode solution">
+      <change afterPath="$PROJECT_DIR$/../exercise11/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise11/src/main/java/exercise/Solution11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -131,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631849590306</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added pseudocode solution">
+      <created>1631894370151</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631894370151</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +172,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Start of Solution10" />
     <MESSAGE value="Finished Solution10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Solution10" />
+    <MESSAGE value="Added pseudocode solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added pseudocode solution" />
   </component>
 </project>
