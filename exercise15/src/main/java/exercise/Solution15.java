@@ -17,10 +17,15 @@ public class Solution15
     {
         Solution15 sol = new Solution15();
 
+        // Prompt user for password
         System.out.print("What is the password? ");
         String inputPassword = sc.nextLine();
 
-        sol.printResponse(inputPassword);
+        // Check if password matches correct password
+        boolean match = sol.checkPassword(inputPassword);
+
+        // Print response
+        sol.printResponse(match);
 
         System.exit(0);
     }
@@ -28,9 +33,9 @@ public class Solution15
     {
         return inputPassword.equals(PASSWORD);
     }
-    private void printResponse(String inputPassword)
+    private void printResponse(boolean match)
     {
-        if(checkPassword(inputPassword))
+        if(match)
         {
             System.out.println("Welcome!");
         }
