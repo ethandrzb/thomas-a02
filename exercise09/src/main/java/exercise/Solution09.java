@@ -19,11 +19,16 @@ public class Solution09
     {
         Solution09 sol = new Solution09();
 
+        // Get ceiling dimensions from user
         sol.getDimensionsFromUser();
+
+        // Calculate ceiling area
         sol.getCeilingArea();
 
+        // Calculate number of paint cans needed to paint the ceiling
         int numPaintCansNeeded = (int) Math.ceil(sol.getCeilingArea() / SQ_FEET_PER_CAN);
 
+        // Display number of paint cans need
         System.out.printf("You will need to purchase %d gallons of paint to cover %.3f square feet.%n",
                 numPaintCansNeeded, sol.getCeilingArea());
 
@@ -31,12 +36,15 @@ public class Solution09
     }
     public void getDimensionsFromUser()
     {
+        // Prompt user for ceiling length
         System.out.println("What is the length of the ceiling?");
         length = sc.nextDouble();
 
+        // Prompt user for ceiling width
         System.out.println("What is the width of the ceiling?");
         width = sc.nextDouble();
     }
+    // Calculate area of rectangular ceiling
     public double getCeilingArea()
     {
         return length * width;
