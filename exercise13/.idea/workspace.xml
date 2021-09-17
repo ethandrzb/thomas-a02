@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da7c4530-73c1-4aae-bab1-f2bf8a9e594b" name="Changes" comment="Finished Solution13">
+    <list default="true" id="da7c4530-73c1-4aae-bab1-f2bf8a9e594b" name="Changes" comment="Made helper methods private">
       <change afterPath="$PROJECT_DIR$/../exercise14/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exercise14/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exercise14/.idea/gradle.xml" afterDir="false" />
@@ -20,10 +20,6 @@
       <change afterPath="$PROJECT_DIR$/../exercise14/gradlew.bat" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exercise14/settings.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../exercise14/src/main/java/exercise/Solution14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise12/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise12/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631919060922</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Made helper methods private">
+      <created>1631920383653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631920383653</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +167,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start of Solution13" />
     <MESSAGE value="Finished Solution13" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Solution13" />
+    <MESSAGE value="Made helper methods private" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made helper methods private" />
   </component>
 </project>
