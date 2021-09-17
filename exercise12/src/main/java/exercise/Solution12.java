@@ -33,7 +33,7 @@ public class Solution12
         sol.investmentValue = sol.calculateSimpleInterest();
 
         // Display investment with interest
-        System.out.printf("After %d years at %.1f%%, the investment will be worth $%.2f.", sol.numYears, sol.interestRate, sol.investmentValue);
+        System.out.printf("After %d years at %.1f%%, the investment will be worth $%.2f.%n", sol.numYears, sol.interestRate, sol.investmentValue);
 
         System.exit(0);
     }
