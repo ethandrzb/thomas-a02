@@ -20,19 +20,24 @@ public class Solution10
     {
         Solution10 sol = new Solution10();
 
+        // Prompt user for their shopping cart
         sol.getShoppingCartFromUser();
 
+        // Display subtotal, sales tax amount, and total after tax
         System.out.println(sol.selfCheckout());
 
         System.exit(0);
     }
     public void getShoppingCartFromUser()
     {
+        // Get 3 items from user
         for(int i = 0; i < 3; i++)
         {
+            // Prompt user for price of current item
             System.out.print("Enter the price of item " + (i + 1) + " : ");
             price[i] = sc.nextDouble();
 
+            // Prompt user for quantity of current item
             System.out.print("Enter the quantity of item " + (i + 1) + " : ");
             quantity[i] = sc.nextDouble();
         }
@@ -41,21 +46,28 @@ public class Solution10
     {
         double subtotal = 0;
 
+        // Sum costs for each item
         for(int i = 0; i < 3; i++)
         {
+            // Calculate cost of each item
             subtotal += price[i] * quantity[i];
         }
 
         return subtotal;
     }
+    // Calculate sales tax
     public double getTaxAmount()
     {
         return getSubtotal() * SALES_TAX_RATE;
     }
+
+    // Apply sales tax to subtotal
     public double getTotal()
     {
         return getSubtotal() * (1.0 + SALES_TAX_RATE);
     }
+
+    // Generate output message
     public String selfCheckout()
     {
         return String.format("Subtotal: $%.2f%n" +
