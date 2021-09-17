@@ -18,19 +18,23 @@ public class Solution07
     {
         Solution07 sol = new Solution07();
 
+        // Prompt user for room length
         System.out.println("What is the length of the room in feet?");
         sol.length = sc.nextDouble();
 
+        // Prompt user for room width
         System.out.println("What is the width of the room in feet?");
         sol.width = sc.nextDouble();
 
+        // Display dimensions entered by user
         System.out.println("You entered " + sol.length + " feet by " + sol.width + " feet.");
 
+        // Print area of room in square feet and square meters
         sol.printAreas();
 
         System.exit(0);
     }
-
+    // Calculate room area
     public double calculateArea()
     {
         return length * width;
