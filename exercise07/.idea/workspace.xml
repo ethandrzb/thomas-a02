@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5043af58-312b-42e0-9a28-a90e8c4f10f3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="5043af58-312b-42e0-9a28-a90e8c4f10f3" name="Changes" comment="Finished Solution07.java">
+      <change afterPath="$PROJECT_DIR$/../exercise08/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise08/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise08/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise08/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise08/src/main/java/exercise/Solution08.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/Solution07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/Solution07.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="exercise07" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="exercise07" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="exercise07" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -60,6 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
@@ -99,6 +113,14 @@
       <option name="presentableId" value="Default" />
       <updated>1631806859078</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finished Solution07.java">
+      <created>1631839051745</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631839051745</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,5 +134,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished Solution07.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Solution07.java" />
   </component>
 </project>
