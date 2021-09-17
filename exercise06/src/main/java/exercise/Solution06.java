@@ -31,7 +31,7 @@ public class Solution06
 
         System.exit(0);
     }
-    public void printRetirement(int currentAge, int retireAge)
+    private void printRetirement(int currentAge, int retireAge)
     {
         System.out.printf("You have %d years left until you can retire.%n", (retireAge - currentAge));
 

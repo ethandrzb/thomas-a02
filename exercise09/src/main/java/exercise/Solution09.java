@@ -34,7 +34,7 @@ public class Solution09
 
         System.exit(0);
     }
-    public void getDimensionsFromUser()
+    private void getDimensionsFromUser()
     {
         // Prompt user for ceiling length
         System.out.println("What is the length of the ceiling?");
@@ -45,7 +45,7 @@ public class Solution09
         width = sc.nextDouble();
     }
     // Calculate area of rectangular ceiling
-    public double getCeilingArea()
+    private double getCeilingArea()
     {
         return length * width;
     }

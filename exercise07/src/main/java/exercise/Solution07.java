@@ -35,15 +35,15 @@ public class Solution07
         System.exit(0);
     }
     // Calculate room area
-    public double calculateArea()
+    private double calculateArea()
     {
         return length * width;
     }
-    public double sqFeetToSqMeters(double sqFeet)
+    private double sqFeetToSqMeters(double sqFeet)
     {
         return sqFeet * SQ_FEET_TO_SQ_METERS_CONVERSION_FACTOR;
     }
-    public void printAreas()
+    private void printAreas()
     {
         System.out.println("The area is");
         System.out.printf("%d square feet%n", (int)calculateArea());

@@ -28,7 +28,7 @@ public class Solution10
 
         System.exit(0);
     }
-    public void getShoppingCartFromUser()
+    private void getShoppingCartFromUser()
     {
         // Get 3 items from user
         for(int i = 0; i < 3; i++)
@@ -42,7 +42,7 @@ public class Solution10
             quantity[i] = sc.nextDouble();
         }
     }
-    public double getSubtotal()
+    private double getSubtotal()
     {
         double subtotal = 0;
 
@@ -56,19 +56,19 @@ public class Solution10
         return subtotal;
     }
     // Calculate sales tax
-    public double getTaxAmount()
+    private double getTaxAmount()
     {
         return getSubtotal() * SALES_TAX_RATE;
     }
 
     // Apply sales tax to subtotal
-    public double getTotal()
+    private double getTotal()
     {
         return getSubtotal() * (1.0 + SALES_TAX_RATE);
     }
 
     // Generate output message
-    public String selfCheckout()
+    private String selfCheckout()
     {
         return String.format("Subtotal: $%.2f%n" +
                 "Tax: $%.2f%n" +

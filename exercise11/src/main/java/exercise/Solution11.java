@@ -31,7 +31,7 @@ public class Solution11
         System.exit(0);
     }
 
-    public double getDoubleFromUser(String prompt)
+    private double getDoubleFromUser(String prompt)
     {
         System.out.print(prompt + " ");
 
@@ -39,7 +39,7 @@ public class Solution11
     }
 
     // Convert euros to USD
-    public double getUSDFromEuros()
+    private double getUSDFromEuros()
     {
         double usd = euros * exchangeRate;
 

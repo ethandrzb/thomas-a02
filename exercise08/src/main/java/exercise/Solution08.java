@@ -30,7 +30,7 @@ public class Solution08
         System.exit(0);
     }
 
-    public void getAllValuesFromUser()
+    private void getAllValuesFromUser()
     {
         // Prompt user for number of party attendees
         numPeople = getIntFromUser("How many people?");

@@ -37,13 +37,13 @@ public class Solution12
 
         System.exit(0);
     }
-    public double getDoubleFromUser(String prompt)
+    private double getDoubleFromUser(String prompt)
     {
         System.out.print(prompt + " ");
 
         return sc.nextDouble();
     }
-    public double calculateSimpleInterest()
+    private double calculateSimpleInterest()
     {
         double interest;
 

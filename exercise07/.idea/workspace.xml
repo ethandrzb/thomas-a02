@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5043af58-312b-42e0-9a28-a90e8c4f10f3" name="Changes" comment="Added pseudocode solution" />
+    <list default="true" id="5043af58-312b-42e0-9a28-a90e8c4f10f3" name="Changes" comment="Added pseudocode solution">
+      <change beforePath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise06/src/main/java/exercise/Solution06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/src/main/java/exercise/Solution06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/Solution07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/Solution07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise14/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise14/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
