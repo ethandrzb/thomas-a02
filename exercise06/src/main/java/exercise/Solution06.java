@@ -14,18 +14,19 @@ public class Solution06
 
     public static void main(String[] args)
     {
+        Solution06 s = new Solution06();
         int currentAge;
         int retireAge;
 
+        // Prompt user for their current age
         System.out.print("What is your current age? ");
-
         currentAge = sc.nextInt();
 
+        // Prompt user for when they would like to retire
         System.out.print("At what age would you like to retire? ");
-
         retireAge = sc.nextInt();
 
-        Solution06 s = new Solution06();
+        // Display retirement report
         s.printRetirement(currentAge, retireAge);
 
         System.exit(0);
