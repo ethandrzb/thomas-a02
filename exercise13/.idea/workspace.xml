@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da7c4530-73c1-4aae-bab1-f2bf8a9e594b" name="Changes" comment="Made helper methods private">
-      <change beforePath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise06/src/main/java/exercise/Solution06.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise06/src/main/java/exercise/Solution06.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise07/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise07/src/main/java/exercise/Solution07.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise07/src/main/java/exercise/Solution07.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise08/src/main/java/exercise/Solution08.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise08/src/main/java/exercise/Solution08.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise09/src/main/java/exercise/Solution09.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise09/src/main/java/exercise/Solution09.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise10/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise10/src/main/java/exercise/Solution10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise10/src/main/java/exercise/Solution10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise11/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise11/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise11/src/main/java/exercise/Solution11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/src/main/java/exercise/Solution11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise12/src/main/java/exercise/Solution12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise12/src/main/java/exercise/Solution12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../exercise14/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise14/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-    </list>
+    <list default="true" id="da7c4530-73c1-4aae-bab1-f2bf8a9e594b" name="Changes" comment="Added missing gradle files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631920383653</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added missing gradle files">
+      <created>1631921910197</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631921910197</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +159,7 @@
     <MESSAGE value="Start of Solution13" />
     <MESSAGE value="Finished Solution13" />
     <MESSAGE value="Made helper methods private" />
-    <option name="LAST_COMMIT_MESSAGE" value="Made helper methods private" />
+    <MESSAGE value="Added missing gradle files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added missing gradle files" />
   </component>
 </project>
