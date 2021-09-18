@@ -15,13 +15,19 @@ public class Solution16
 
     public static void main(String[] args)
     {
+        Solution16 sol = new Solution16();
         // Prompt user for age
         System.out.print("What is your age? ");
         int userAge = sc.nextInt();
 
         // Display appropriate response based on comparison of user input with legal driving age
-        System.out.printf("%s%n", (userAge >= LEGAL_DRIVING_AGE) ? "You are old enough to legally drive." : "You are not old enough to legally drive.");
+        sol.printResponse(userAge);
 
         System.exit(0);
+    }
+    private void printResponse(int age)
+    {
+        System.out.printf("%s%n", (age >= LEGAL_DRIVING_AGE) ? "You are old enough to legally drive." :
+                "You are not old enough to legally drive.");
     }
 }
