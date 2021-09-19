@@ -37,6 +37,8 @@ public class Solution19
     {
         String userInput;
         double value;
+
+        // Prevent execution from continuing until user enters numeric value
         while(true)
         {
             System.out.print(prompt + ": ");
@@ -55,6 +57,7 @@ public class Solution19
 
         return value;
     }
+
     private double getBMI(double height, double weight)
     {
         return (weight / (height * height)) * 703;
