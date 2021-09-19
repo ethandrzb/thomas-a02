@@ -21,6 +21,7 @@ public class Solution23
         System.exit(0);
     }
 
+    // Car troubleshooter
     private void troubleshooter()
     {
         // Ask user if the car is silent when they turn the key
@@ -45,6 +46,7 @@ public class Solution23
         }
     }
 
+    // Sub-function for troubleshoot()
     private void slickingNoiseTroubleshooter()
     {
         // If not, ask user if car makes a slicking noise
