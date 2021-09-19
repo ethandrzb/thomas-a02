@@ -49,9 +49,12 @@ public class Solution20
         double taxMultiplier = 0.0;
         double taxAmount;
 
+        // Add sales tax if state is Wisconsin
         if(state.equals("Wisconsin"))
         {
             taxMultiplier = 0.05;
+
+            // Add additional sale tax if county is Eau Claire or Dunn
             if(county.equals("Eau Claire"))
             {
                 taxMultiplier += 0.005;
@@ -61,6 +64,7 @@ public class Solution20
                 taxMultiplier += 0.004;
             }
         }
+        // Add sales tax if state is Illinois
         else if(state.equals("Illinois"))
         {
             taxMultiplier = 0.08;
