@@ -42,6 +42,7 @@ public class Solution22
         return sc.nextInt();
     }
 
+    // Compare numbers to each other to make sure they're all unique values
     private boolean allUnique()
     {
         return (numbers[0] != numbers[1]) && (numbers[1] != numbers[2]) && (numbers[2] != numbers[0]);
