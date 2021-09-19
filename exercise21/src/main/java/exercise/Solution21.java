@@ -15,19 +15,17 @@ public class Solution21
     {
         Solution21 sol = new Solution21();
 
-        for (int i = 0; i < 14; i++)
-        {
-            // Prompt user for month number
-            System.out.print("Please enter the number of the month: ");
-            int monthNumber = sc.nextInt();
+        // Prompt user for month number
+        System.out.print("Please enter the number of the month: ");
+        int monthNumber = sc.nextInt();
 
-            // Convert number to month name
-            // Display month
-            System.out.println(sol.numberToMonth(monthNumber));
-        }
+        // Convert number to month name
+        // Display month
+        System.out.println(sol.numberToMonth(monthNumber));
 
         System.exit(0);
     }
+
     private String numberToMonth(int num)
     {
         String retStr;
