@@ -28,7 +28,7 @@ public class Solution21
 
         System.exit(0);
     }
-    public String numberToMonth(int num)
+    private String numberToMonth(int num)
     {
         String retStr;
 
