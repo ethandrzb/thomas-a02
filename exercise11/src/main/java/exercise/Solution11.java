@@ -43,8 +43,10 @@ public class Solution11
     {
         double usd = euros * exchangeRate;
 
-        // Round fractions of a cent to next penny
-        usd *= 100;
+        // Round up to next penny
+        usd *= 1000;
+        usd = Math.ceil(usd);
+        usd /= 10;
         usd = Math.ceil(usd);
         usd /= 100;
 

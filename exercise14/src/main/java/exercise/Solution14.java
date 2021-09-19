@@ -50,7 +50,9 @@ public class Solution14
         double tmp = subtotal + taxAmount;
 
         // Round up to next penny
-        tmp *= 100;
+        tmp *= 1000;
+        tmp = Math.ceil(tmp);
+        tmp /= 10;
         tmp = Math.ceil(tmp);
         tmp /= 100;
 

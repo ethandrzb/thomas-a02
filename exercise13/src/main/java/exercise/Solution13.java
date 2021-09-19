@@ -57,7 +57,9 @@ public class Solution13
                 (double)compoundsPerYear * numYears);
 
         // Round up to next penny
-        interest *= 100;
+        interest *= 1000;
+        interest = Math.ceil(interest);
+        interest /= 10;
         interest = Math.ceil(interest);
         interest /= 100;
 

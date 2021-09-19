@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="da7c4530-73c1-4aae-bab1-f2bf8a9e594b" name="Changes" comment="Added missing gradle files" />
+    <list default="true" id="da7c4530-73c1-4aae-bab1-f2bf8a9e594b" name="Changes" comment="Added missing gradle files">
+      <change beforePath="$PROJECT_DIR$/../exercise11/src/main/java/exercise/Solution11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise11/src/main/java/exercise/Solution11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise12/src/main/java/exercise/Solution12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise12/src/main/java/exercise/Solution12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/Solution13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/Solution13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise20/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise20/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
