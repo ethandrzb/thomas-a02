@@ -68,16 +68,12 @@ public class Solution20
 
         taxAmount = subtotal * taxMultiplier;
 
-        System.out.println("Tax amount before rounding: " + taxAmount);
-
         // Round up to next penny
         taxAmount *= 1000;
         taxAmount = Math.ceil(taxAmount);
         taxAmount /= 10;
         taxAmount = Math.ceil(taxAmount);
         taxAmount /= 100;
-
-        System.out.println("Tax amount after rounding: " + taxAmount);
 
         return taxAmount;
     }
