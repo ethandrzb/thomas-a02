@@ -52,11 +52,13 @@ public class Solution17
 
         System.exit(0);
     }
+
     private int getIntFromUser(String prompt)
     {
         String userInput;
         int num;
 
+        // Prevent execution from continuing until user enters integer value
         while(true)
         {
             System.out.print(prompt + " ");
@@ -74,6 +76,7 @@ public class Solution17
 
         return num;
     }
+
     private double calculateBAC(int gender, int amtOfAlcohol, int weight, int hoursSinceLastDrink)
     {
         double bac = 0;
@@ -91,6 +94,7 @@ public class Solution17
 
         return bac;
     }
+
     private boolean legalToDrive(double userBAC)
     {
         return userBAC < LEGAL_BAC_LIMIT;
