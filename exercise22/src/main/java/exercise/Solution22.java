@@ -5,12 +5,58 @@
 
 package exercise;
 
+import java.util.Scanner;
+
 public class Solution22
 {
+    private static final Scanner sc = new Scanner(System.in);
+
+    // Can easily be expanded to support more numbers
+    private static final String[] ordinals = {"first", "second", "third"};
+
+    private final int[] numbers = new int[3];
+
     public static void main(String[] args)
     {
-        System.out.println("Some text to make you question your purpose in life.");
+        Solution22 sol = new Solution22();
+
+        // Prompt user for 3 numbers
+        for(int i = 0; i < sol.numbers.length; i++)
+        {
+            sol.numbers[i] = sol.getIntFromUser("Enter the " + ordinals[i] + " number");
+        }
+
+        // Check numbers for uniqueness
+        // Skip finding the maximum value if non-unique numbers exist.
+        if(sol.allUnique())
+        {
+            System.out.printf("The largest number is %d.%n", sol.getMax());
+        }
 
         System.exit(0);
+    }
+
+    private int getIntFromUser(String prompt)
+    {
+        System.out.print(prompt + ": ");
+        return sc.nextInt();
+    }
+
+    private boolean allUnique()
+    {
+        return (numbers[0] != numbers[1]) && (numbers[1] != numbers[2]) && (numbers[2] != numbers[0]);
+    }
+
+    private int getMax()
+    {
+        int runningMax = Integer.MIN_VALUE;
+
+        for (int number : numbers)
+        {
+            //noinspection ManualMinMaxCalculation
+            runningMax = number > runningMax ? number : runningMax;
+        }
+
+        return runningMax;
     }
 }
