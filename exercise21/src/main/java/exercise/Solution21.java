@@ -5,13 +5,60 @@
 
 package exercise;
 
+import java.util.Scanner;
+
 public class Solution21
 {
+    private static final Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args)
     {
-        System.out.println("Some text to give me the courage to continue my work.");
-        System.out.println("I hope it encourages you to do the same.");
+        Solution21 sol = new Solution21();
+
+        for (int i = 0; i < 14; i++)
+        {
+            // Prompt user for month number
+            System.out.print("Please enter the number of the month: ");
+            int monthNumber = sc.nextInt();
+
+            // Convert number to month name
+            // Display month
+            System.out.println(sol.numberToMonth(monthNumber));
+        }
 
         System.exit(0);
+    }
+    public String numberToMonth(int num)
+    {
+        String retStr;
+
+        if(num >= 1 && num <= 12)
+        {
+            retStr = "The name of the month is ";
+
+            retStr = retStr + switch(num)
+                    {
+                        case 1 -> "January";
+                        case 2 -> "February";
+                        case 3 -> "March";
+                        case 4 -> "April";
+                        case 5 -> "May";
+                        case 6 -> "June";
+                        case 7 -> "July";
+                        case 8 -> "August";
+                        case 9 -> "September";
+                        case 10 -> "October";
+                        case 11 -> "November";
+                        case 12 -> "December";
+
+                        default -> null;
+                    } + ".";
+        }
+        else
+        {
+            retStr = "Invalid month entered.";
+        }
+
+        return retStr;
     }
 }
